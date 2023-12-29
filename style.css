@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Assistant&family=Ephesis&family=Kalnia&family=Martel+Sans&family=Poppins&family=Raleway:wght@400;800&family=Saira+Extra+Condensed&family=Space+Grotesk&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    background-color: beige;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+h1{
+    font-size: 60px;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+.main{
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.heading{
+    color: white;
+    text-transform: capitalize;
+    font-size: 32px;
+}
+h2{
+    background-color: black;
+    overflow: hidden;
+    font-weight: bolder;
+}
+h2 span{
+    display: inline-block;
+    transform: translateY(100%);
+}
